@@ -18,3 +18,9 @@
 ```
 
 表示するボタンを押すとランダムにコンバートされた名前が表示されます。
+
+## ビルド手順
+```
+npm run build
+git subtree push --prefix dist origin gh-pages
+```
